@@ -1,7 +1,7 @@
 import arithmetic
 
-#Need to comment more!!
-# Need to fix warnings to be more specific
+# TO DO Need to fix integer validation isdigit() so that it works with negative numbers
+# QUESTION how check for real #'s and floats and negatives?
 
 operations_list = ["+", "-", "*", "/", "square", "cube", "pow", "mod", "q"]
 two_arg_ops = ["square", "cube"]
@@ -62,5 +62,6 @@ while calcswitch == "on":
             else: 
                 print "Sample correct input: '%s integer integer'" % calc_list[0]
 
+# probably won't need this
         else: 
             print "I have no idea what you just typed"
