@@ -21,7 +21,7 @@ def cube(num1):
     return num1 * num1 * num1 
 
 def power(num1, num2):
-#    return pow(num1, num2)
+#   return pow(num1, num2)
     x = 1
 
     for i in range(num2):
@@ -31,3 +31,10 @@ def power(num1, num2):
 def mod(num1, num2):
     return num1 % num2
 
+def validateOperator (num1):
+    operatorlist = ["+", "-", "*", "/", "square", "cube", "pow", "mod", "q"]
+    for i in operatorlist:
+        if num1 == operatorlist[i]:
+            print "success"
+        else: 
+            print "fail"
