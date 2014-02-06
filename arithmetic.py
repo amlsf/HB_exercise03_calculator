@@ -1,31 +1,33 @@
-def add(first, second):
-    print "DEBUG MESSAGE: this is a dummy add function"
-    return 0
+# This is just to play around and have another version for git
 
-def subtract(first, second):
-    print "DEBUG MESSAGE: this is a dummy subtract function"
-    return 0
+def add(num1, num2):
+    #return 10
+    return num1 + num2
 
-def multiply(first, second):
-    print "DEBUG MESSAGE: this is a dummy multiply function"
-    return 0
+def subtract(num1, num2):
+    return num1 - num2
 
-def divide(first, second):
-    print "DEBUG MESSAGE: this is a dummy divide function"
-    return 0.0
+def multiply(num1, num2):
+    #pass
+    return num1 * num2
 
-def square(i):
-    print "DEBUG MESSAGE: this is a dummy square function"
-    return 0
+def divide(num1, num2):
+    return float(num1) / num2
 
-def cube(i):
-    print "DEBUG MESSAGE: this is a dummy cube function"
-    return 0
+def square(num1):
+    return num1 * num1
 
-def mod(i, j):
-    print "DEBUG MESSAGE: this is a dummy mod function"
-    return 0
+def cube(num1):
+    return num1 * num1 * num1 
 
-def power(i, j):
-    print "DEBUG MESSAGE: this is a dummy power function"
-    return 0
+def power(num1, num2):
+#    return pow(num1, num2)
+    x = 1
+
+    for i in range(num2):
+        x = x * num1
+    return x
+
+def mod(num1, num2):
+    return num1 % num2
+
